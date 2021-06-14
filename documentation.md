@@ -8,6 +8,11 @@ Git is foundation of many services like **GitHub** and **GitLab**, but we can us
 
 ![Git and Github](https://res.cloudinary.com/practicaldev/image/fetch/s--8CA40E5L--/c_imagga_scale,f_auto,fl_progressive,h_900,q_auto,w_1600/https://dev-to-uploads.s3.amazonaws.com/i/721lt9kj92i3ov2cthfc.png)
 
+# **GitHub**
+> ***GitHub** is a Git repository hosting service. It is a web-based service.*
+
+GitHub is an online service to store code and push from the computer running the Git tool. GitHub focused on centralized source code hosting.
+
 # **Git Initialization**
 
 To create a blank repository, open command line on your desired directory and run the init command as follows:
