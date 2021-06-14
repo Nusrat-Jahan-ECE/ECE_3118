@@ -1,0 +1,4 @@
+# Git Initialization 
+```
+git init
+```
