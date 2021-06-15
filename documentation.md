@@ -34,3 +34,11 @@ To create a blank repository, open command line on your desired directory and ru
 ```
 git init
 ````
+# **3. Git Status Command**
+
+The status command is used to display the state of the working directory and the staging area. It also lists the files that you've changed and those you still need to add or commit.
+
+**Syntax:**
+```
+git status
+````
