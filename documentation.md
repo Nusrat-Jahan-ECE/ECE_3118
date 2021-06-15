@@ -42,3 +42,21 @@ The status command is used to display the state of the working directory and the
 ```
 git status
 ````
+# **4. Git Add Command**
+
+This command is used to add one or more files to staging (Index) area.
+
+**Syntax:**
+
+**i. To add one file:**
+```
+git add <Filename>  
+````
+**ii. To add more than one file:**
+```
+git add*
+````
+**iii. To add all files:**
+```
+git add -A
+````
