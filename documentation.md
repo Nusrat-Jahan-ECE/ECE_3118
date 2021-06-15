@@ -60,3 +60,15 @@ git add*
 ```
 git add -A
 ````
+# **5. Git Commit Command**
+
+This command changes the head. It records or snapshots the file permanently in the version history with a message.
+
+![Git add vs Git commit](https://res.cloudinary.com/practicaldev/image/fetch/s--Si7ksd-d--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://cdn-images-1.medium.com/max/800/1%2AdiRLm1S5hkVoh5qeArND0Q.png)
+
+
+**Syntax:**
+
+```
+git commit -m " Commit Message"  
+````
