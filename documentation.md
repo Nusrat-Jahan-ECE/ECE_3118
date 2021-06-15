@@ -13,9 +13,24 @@ Git is foundation of many services like **GitHub** and **GitLab**, but we can us
 
 GitHub is an online service to store code and push from the computer running the Git tool. GitHub focused on centralized source code hosting.
 
-# **Git Initialization**
+# **Git Commands:**
+
+Git supports many command-line tools and graphical user interfaces. The Git command line is the only place where we can run all the Git commands.
+
+Here is a list of basic Git commands that are used daily:
+
+# **1. Git Config Command**
+
+The Git config command is the first and necessary command used on the Git command line. This command sets the author name and email address to be used with your commits. Git config is also used in other scenarios. 
+
+**Syntax**
+```
+git config --global user.name "Nusrat-Jahan-ECE"  
+git config --global user.email "1710011@student.ruet.ac.bd"
+````
+# **2. Git Initialization**
 
 To create a blank repository, open command line on your desired directory and run the init command as follows:
 ```
 git init
-```
+````
