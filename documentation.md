@@ -72,3 +72,14 @@ This command changes the head. It records or snapshots the file permanently in t
 ```
 git commit -m " Commit Message"  
 ````
+# **6. Git Clone Command**
+
+![Git clone](https://www.w3docs.com/uploads/media/default/0001/03/3f26b30cc1dbda3424ceef3ab4977149906a0c58.png)
+
+
+This command is used to make a copy of a repository from an existing URL. If I want a local copy of my repository from GitHub, this command allows creating a local copy of that repository on your local directory from the repository URL.
+
+**Syntax:**
+```
+git clone <URL> 
+````
