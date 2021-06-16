@@ -19,7 +19,10 @@ Git supports many command-line tools and graphical user interfaces. The Git comm
 
 Here is a list of basic Git commands that are used daily:
 
-# **1. Git Config Command**
+# ***1. Git Configuration:***
+
+
+## **i. Git Config:**
 
 The Git config command is the first and necessary command used on the Git command line. This command sets the author name and email address to be used with your commits. Git config is also used in other scenarios. 
 
@@ -28,39 +31,62 @@ The Git config command is the first and necessary command used on the Git comman
 git config --global user.name "Nusrat-Jahan-ECE"  
 git config --global user.email "1710011@student.ruet.ac.bd"
 ````
-# **2. Git Initialization**
+
+## **ii. To check git version:**
+
+We can check your current version of Git by running the following command in Git Bash, terminal (Linux, macOS) or command prompt (Windows).
+
+**Syntax:**
+```
+git --version
+````
+
+
+
+# ***2. Starting a Project:***
+
+## **i. Git Initialization:**
 
 To create a blank repository, open command line on your desired directory and run the init command as follows:
 ```
 git init
 ````
-# **3. Git Status Command**
 
-The status command is used to display the state of the working directory and the staging area. It also lists the files that you've changed and those you still need to add or commit.
+## **ii. Git Clone:**
+
+![Git clone](https://www.w3docs.com/uploads/media/default/0001/03/3f26b30cc1dbda3424ceef3ab4977149906a0c58.png)
+
+
+This command is used to make a copy of a repository from an existing URL. If I want a local copy of my repository from GitHub, this command allows creating a local copy of that repository on your local directory from the repository URL.
 
 **Syntax:**
 ```
-git status
+git clone <URL> 
 ````
-# **4. Git Add Command**
+
+
+# ***3. Local Changes:***
+
+
+## **i. Git Add:**
 
 This command is used to add one or more files to staging (Index) area.
 
 **Syntax:**
 
-**i. To add one file:**
+**a. To add one file:**
 ```
 git add <Filename>  
 ````
-**ii. To add more than one file:**
+**b. To add more than one file:**
 ```
 git add*
 ````
-**iii. To add all files:**
+**c. To add all files:**
 ```
 git add -A
 ````
-# **5. Git Commit Command**
+## **ii. Git Commit:**
 
 This command changes the head. It records or snapshots the file permanently in the version history with a message.
 
@@ -72,14 +98,27 @@ This command changes the head. It records or snapshots the file permanently in t
 ```
 git commit -m " Commit Message"  
 ````
-# **6. Git Clone Command**
 
-![Git clone](https://www.w3docs.com/uploads/media/default/0001/03/3f26b30cc1dbda3424ceef3ab4977149906a0c58.png)
+# ***4. Track Changes:***
 
+## **i. Git Status:**
 
-This command is used to make a copy of a repository from an existing URL. If I want a local copy of my repository from GitHub, this command allows creating a local copy of that repository on your local directory from the repository URL.
+The status command is used to display the state of the working directory and the staging area. It also lists the files that you've changed and those you still need to add or commit.
 
 **Syntax:**
 ```
-git clone <URL> 
+git status
+````
+
+# ***5. Commit History:***
+
+## **i. Git Log:**
+
+This command is used to check the commit history.
+
+![Git log](https://www.blog.nakulrajput.com/wp-content/uploads/2018/10/Git-Status.jpg)
+
+**Syntax:**
+```
+git log
 ````
