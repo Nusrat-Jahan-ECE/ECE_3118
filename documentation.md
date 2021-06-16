@@ -122,3 +122,34 @@ This command is used to check the commit history.
 ```
 git log
 ````
+
+# ***6. Branching:***
+
+
+## **i. Git Branch:**
+
+![Git branch](https://res.cloudinary.com/practicaldev/image/fetch/s--Jc-acrrl--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/69payngupg75rqgabwdg.png)
+
+
+Branches are highly important in the git world. By using branches, several developers are able to work in parallel on the same project simultaneously. We can use the git branch command for creating, listing and deleting branches.
+
+**Syntax:**
+
+**a. Creating a new branch:**
+```
+git branch <branch-name> 
+````
+This command will create a branch locally. To push the new branch into the remote repository, you need to use the following command:
+
+```
+git push -u <remote> <branch-name>
+```
+**b. Viewing branches:**
+```
+git branch or git branch --list
+```
+
+**c. Deleting a branch:**
+```
+git branch -d <branch-name>
+```
