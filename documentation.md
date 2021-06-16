@@ -153,3 +153,15 @@ git branch or git branch --list
 ```
 git branch -d <branch-name>
 ```
+
+## **ii. Git Checkout:**
+
+![Git checkout](https://static.javatpoint.com/tutorial/git/images/git-checkout.png)
+
+
+This is also one of the most used Git commands. To work in a branch, first we need to switch to it. We use git checkout mostly for switching from one branch to another. We can also use it for checking out files and commits.
+
+**Syntax:**
+```
+git checkout <name-of-your-branch>
+````
