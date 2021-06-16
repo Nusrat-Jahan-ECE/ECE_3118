@@ -240,3 +240,16 @@ The git stash branch command allows the user to stash work on a separate branch 
 git stash branch <Branch Name>  
 ```
 
+
+# ***7. Merging:***
+
+## **i. Git Merge:**
+
+![Git merge](https://www.devguide.at/wp-content/uploads/2019/06/branch-1.png)
+
+The "git merge" command is used to merge the specified branch history into the current branch.
+
+**Syntax:**
+```
+git merge  <branch-name>
+````
