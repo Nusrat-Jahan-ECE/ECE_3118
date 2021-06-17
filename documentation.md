@@ -253,3 +253,29 @@ The "git merge" command is used to merge the specified branch history into the c
 ```
 git merge  <branch-name>
 ````
+# ***8. Pushing Updates:***
+
+## **i. Git Push:**
+
+![Git push, pull, fetch](http://sudheer.pw/present/git/assets/dvcs.png)
+
+Push Command is used to upload local repository content to a remote repository. Pushing is an act of transfer commits from your local repository to a remote repo. It's the complement to git fetch, but whereas fetching imports commits to local branches on comparatively pushing exports commits to remote branches. 
+
+Remote branches are configured by using the git remote command. Pushing is capable of overwriting changes, and caution should be taken when pushing.
+
+**Syntax:**
+
+**a. Git push origin master :**
+
+This command sends the changes made on the master branch, to our remote repository.
+
+```
+git push [variable name] master 
+````
+**b. Git push -all :**
+
+This command pushes all the branches to the server repository.
+
+```
+git push --all 
+````
