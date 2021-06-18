@@ -339,3 +339,16 @@ Git Remote command is used to connect your local repository to the remote server
 git remote add origin <URL>
 ````
 
+# ***11. Undo Changes:***
+
+## **i. Git Revert:**
+
+Sometimes we need to undo the changes that we've made. There are various ways to undo our changes locally or remotely (depends on what we need), but we must carefully use these commands to avoid unwanted deletions.t
+
+Then we just need to specify the hash code next to our commit that we would like to undo.
+
+**Syntax:**
+```
+git revert <hash_code>
+````
+![Git revert vs git reset](https://www.blog.nakulrajput.com/wp-content/uploads/2018/10/Git-Reverting-Resetting.jpg)
