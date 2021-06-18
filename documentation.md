@@ -253,11 +253,10 @@ The "git merge" command is used to merge the specified branch history into the c
 ```
 git merge  <branch-name>
 ````
-# ***8. Pushing Updates:***
+# ***8. Collaborating:***
 
 ## **i. Git Push:**
 
-![Git push, pull, fetch](http://sudheer.pw/present/git/assets/dvcs.png)
 
 Push Command is used to upload local repository content to a remote repository. Pushing is an act of transfer commits from your local repository to a remote repo. It's the complement to git fetch, but whereas fetching imports commits to local branches on comparatively pushing exports commits to remote branches. 
 
@@ -279,11 +278,9 @@ This command pushes all the branches to the server repository.
 ```
 git push --all 
 ````
+![Git push, pull, fetch](http://sudheer.pw/present/git/assets/dvcs.png)
 
-
-# ***9. Pulling Updates:***
-
-## **i. Git Pull:**
+## **ii. Git Pull:**
 
 Pull command is used to receive data from GitHub. It fetches and merges changes on the remote server to your working directory.
 
@@ -296,7 +293,7 @@ Basically,
 git pull <URL>  
 ````
 
-## **ii. Git Fetch:**
+## **iii. Git Fetch:**
 
 
 ![Git fetch](https://static.javatpoint.com/tutorial/git/images/git-fetch.png)
@@ -327,7 +324,7 @@ git fetch -all
 git fetch origin  
 ```
 
-# ***10. Remote:***
+# ***9. Remote:***
 
 ## **i. Git Remote:**
 
@@ -338,12 +335,49 @@ Git Remote command is used to connect your local repository to the remote server
 ```
 git remote add origin <URL>
 ````
+## **ii. Git Origin Master:**
 
-# ***11. Undo Changes:***
+The term "git origin master" is used in the context of a remote repository. It is used to deal with the remote repository. The term origin comes from where repository original situated and master stands for the main branch.
+
+### **Git Master:**
+
+Master is a naming convention for Git branch. It's a default branch of Git. After cloning a project from a remote server, the resulting local repository contains only a single local branch. This branch is called a "master" branch. It means that "master" is a repository's "default" branch.
+
+
+![Git master](https://static.javatpoint.com/tutorial/git/images/git-origin-master.png)
+
+
+In most cases, the master is referred to as the main branch. Master branch is considered as the final view of the repository.
+
+**Syntax:**
+```
+git remote add origin <URL>
+````
+
+### **Git Origin:**
+
+In Git, The term origin is referred to the remote repository where you want to publish your commits. The default remote repository is called origin, although you can work with several remotes having a different name at the same time. It is said as an alias of the system.
+
+
+![Git origin](https://static.javatpoint.com/tutorial/git/images/git-origin-master2.png)
+
+
+The origin is a short name for the remote repository that a project was initially being cloned. It is used in place of the original repository URL. Thus, it makes referencing much easier.
+
+Some commands in which the term origin and master are widely used are as follows:
+```
+Git push origin master
+``` 
+```   
+Git pull origin master
+```
+
+
+# ***10. Undo Changes:***
 
 ## **i. Git Revert:**
 
-Sometimes we need to undo the changes that we've made. There are various ways to undo our changes locally or remotely (depends on what we need), but we must carefully use these commands to avoid unwanted deletions.t
+Sometimes we need to undo the changes that we've made. There are various ways to undo our changes locally or remotely (depends on what we need), but we must carefully use these commands to avoid unwanted deletions.
 
 Then we just need to specify the hash code next to our commit that we would like to undo.
 
