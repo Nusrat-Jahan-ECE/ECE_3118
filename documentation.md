@@ -427,3 +427,11 @@ Generally, it is used to change the position of the Head. Let's understand how i
 ```
 git reset --soft  
 ````
+## **References :**
+---
+- https://education.github.com/git-cheat-sheet-education.pdf
+
+- https://www.freecodecamp.org/news/10-important-git-commands-that-every-developer-should-know/
+
+- https://www.javatpoint.com/git-cheat-sheet
+
