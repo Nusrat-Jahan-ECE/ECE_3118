@@ -1,3 +1,26 @@
+
+# **Lab Task: Git Commands**
+### Course No.: ECE 3118
+
+### Course Name: Software Engineering and Information System Design Sessional
+
+**Submitted to:**</br>
+---
+Rakibul Hassan</br>
+Lecturer</br>
+Department of Electrical and Computer Engineering</br>
+RUET</br>
+
+**Submitted by:**</br>
+---
+Nusrat Jahan</br>
+Roll: 1710011</br>
+Department of Electrical and Computer Engineering</br>
+RUET</br>
+
+
+---
+
 # **Git**
 
 > ***Git** is a distributed version control tool that can manage a programmer's source code history.*
